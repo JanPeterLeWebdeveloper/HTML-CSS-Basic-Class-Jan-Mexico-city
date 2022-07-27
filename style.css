@@ -1,0 +1,126 @@
+/* TODO: design your profile with CSS */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap');
+
+h1 {
+    color: #ff4105;
+    font-size: 32px;
+    font-weight: 900px;
+    font-family: 'Cinzel';
+}
+
+h2, h3, h4, h5 {
+    color: #ff4105;
+    font-size: 20px;
+    font-weight: lighter;
+    font-weight: 500;
+    font-family: 'Cinzel';
+}
+
+
+#introduction p {
+    margin-bottom: 40px;
+}
+
+p {
+    display: block;
+    color: black;
+    font-size: 18px;
+    font-weight: 500px;
+    text-align: center;
+    margin-block-start: 1em;
+    margin-inline-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+body {
+    background-color: #F7F9FC;
+    color: #575F7D;
+    font-family: 'Lora', serif;
+    font-size: 17px;
+    font-weight: lighter;
+}
+
+.card {
+    border: 1px solid black;
+    background: white;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 10px 30px rgba(0,0,0,.1);
+    width: 300px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+#img-circle {
+    border-radius: 50%;
+}
+
+.btn-red {
+  color: #fff;
+  background-color: #e60f05; 
+  padding: 8px 24px;
+  border-radius: 4px;
+  box-shadow: 0 2px 14px rgb(126 87 88 / 10%), 0 3px 6px rgb(0 0 0 / 8%);
+  text-decoration: none;
+}
+
+.cta {
+    display: flex;
+    color: fff;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 36px;
+    border-radius: 3px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all .15s ease;
+}
+
+.list-inline > li {
+    display: inline-block;
+    padding: 0px 20px;
+  }
+
+  .list-inline a {
+    font-size: 32px;
+  }
+
+  .list-inline {
+    list-style: none;
+    padding-left: 0px;
+    margin: 0;
+  }
+
+  .list-inline > li {
+    display: inline-block;
+    padding: 0px 20px;
+  }
+
+  .list-inline a {
+    font-size: 32px;
+  }
+
+  .list-inline {
+    list-style: none;
+    padding-left: 0px;
+    margin: 0;
+  }
+
+  a {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: lightslategrey;
+    font-weight: 600;
+    font-size: 16px;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+    background-color: #ff4105;
+  }
+
+* a {
+    text-decoration:none;
+}
+
